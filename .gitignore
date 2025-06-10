@@ -1,0 +1,33 @@
+# PlatformIO
+.pio/
+.vscode/
+
+# VS Code specific files to ignore (adjust as needed)
+.vscode/settings.json
+.vscode/c_cpp_properties.json
+
+# Build artifacts
+.sconsign.dblite
+**/*.bin
+**/*.hex
+**/*.elf
+**/*.map
+**/*.lst
+
+# Dependencies
+# In some cases, platformio_packages/ and platformio_cache/ might be outside the project dir
+# but it's good to include them here if they end up inside.
+# Generally, PlatformIO manages these outside the project, but just in case:
+# .platformio/packages/
+# .platformio/cache/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Sensitive Information (adjust as needed, crucial!)
+# Create these files and add to .gitignore if they contain secrets.
+# Example: If you have a file named 'secrets.h' with WiFi passwords:
+# secrets.h
+# .env
+# config.json
